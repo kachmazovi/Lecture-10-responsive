@@ -1,0 +1,28 @@
+@media (max-width: 480px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .left-section {
+        text-align: center;
+        width: 60%;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    .right-section {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
